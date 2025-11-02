@@ -19,7 +19,7 @@ const Layout = () => {
         <img
           src={assets.logo}
           alt=""
-          className="w-32 sm:w-22 cursor-pointer"
+          className="w-22 sm:w-22 cursor-pointer"
           onClick={() => navigate("/")}
         />
         <button
