@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-        Copyright 2025 © QuickBlog ToluWebDev - All Right Reserved.
+        Copyright 2025 © Tolu Blogs ToluWebDev - All Right Reserved.
       </p>
     </div>
   );
