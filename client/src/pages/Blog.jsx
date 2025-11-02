@@ -106,7 +106,7 @@ const Blog = () => {
       </div>
 
       {/* Comments Section */}
-      <div className="mt-14 mb-10 max-w-7xl mx-auto">
+      <div className="mt-14 mb-10 max-w-7xl lg:mx-auto mx-5">
         <p className="font-semibold mb-4">Comments ({comments.length})</p>
         <div className="flex flex-col gap-4">
           {comments.map((item, index) => (
