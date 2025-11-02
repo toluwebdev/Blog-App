@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 // Routes
 app.get("/", (req, res) => res.send("Api is Working"));
-const PORT = process.env.PORT || 3000;
+const PORT = "https://blog-app-backend-fltq.onrender.com";
 app.use("/api/admin", adminRouter);
 app.use("/api/blog", blogRouter)
 app.listen(PORT, () => {
