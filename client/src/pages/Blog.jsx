@@ -127,7 +127,7 @@ const Blog = () => {
         </div>
       </div>
       {/* Add Comment Section */}
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl  lg:mx-auto mx-5">
         <p className="font-semibold mb-4">Add you comment</p>
         <form
           onSubmit={addComment}
@@ -158,7 +158,7 @@ const Blog = () => {
       </div>
 
       {/* Share Buttons */}
-      <div className="my-24 max-w-7xl mx-auto">
+      <div className="my-24 max-w-7xl lg:mx-auto mx-5">
         <p className="font-semibold my-4">Share this article on social media</p>
         <div className="flex">
           <img src={assets.facebook_icon} width={50} alt="" />
